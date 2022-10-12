@@ -1,0 +1,14 @@
+
+
+1) --> ImplicitWait
+2) ExplicitWait
+3) CustomWait (some company calling ExplicitWait as a customWait) but
+    --> some company calling generic method as CustomWait
+
+    --> public coid WaitforElememt(WebDriver, long time, String title)
+    -->
+    -->
+
+
+4) FluentWait  --> Explicit Wait (Polling Period = 0.5sec) to change the polling period less than 0.5 or more than 0.5.
+5) Thread.Sleep(milli)
